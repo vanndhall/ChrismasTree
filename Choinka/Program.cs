@@ -10,6 +10,15 @@ namespace Choinka
     {
         static void Main(string[] args)
         {
-        }
+            Swierk swierk = new Swierk();
+            Sosna sosna = new Sosna();
+
+            // wypisz
+            swierk.DrawSwierk();
+
+            
+
+        }   
     }
+    
 }
