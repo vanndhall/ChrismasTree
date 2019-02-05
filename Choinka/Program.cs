@@ -14,7 +14,10 @@ namespace Choinka
             Sosna sosna = new Sosna();
 
             // wypisz
+            Console.WriteLine("Pora na świerk:  "); 
             swierk.DrawSwierk();
+            Console.WriteLine("Pora na Sosnę: ");
+            sosna.DrawSosna();
 
             
 

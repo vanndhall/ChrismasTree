@@ -8,7 +8,7 @@ namespace Choinka
 {
     class ChristmasTree
     {
-        protected int i = 1, j, sp = 4, st = 1;
+       
         
 
         public ChristmasTree()

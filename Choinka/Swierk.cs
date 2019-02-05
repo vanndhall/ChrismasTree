@@ -8,6 +8,7 @@ namespace Choinka
 {
     class Swierk : ChristmasTree
     {
+        protected int i = 1, j, sp = 4, st = 1;
         public void DrawSwierk()
         {
             while (i <= 5)
@@ -30,7 +31,7 @@ namespace Choinka
                 i++;
             }
             Console.WriteLine("____________");
-            Console.ReadLine();
+            
         }
     }
 }
