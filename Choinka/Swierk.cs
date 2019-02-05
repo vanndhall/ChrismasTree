@@ -8,6 +8,7 @@ namespace Choinka
 {
     class Swierk : ChristmasTree
     {
+        public Swierk() { }
         protected int i = 1, j, sp = 4, st = 1;
         public void DrawSwierk()
         {

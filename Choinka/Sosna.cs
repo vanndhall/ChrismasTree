@@ -12,7 +12,7 @@ namespace Choinka
         public void DrawSosna()
         {
             //Liście
-          for (i = 1; i <= 10; i++)
+          for (i = 1; i <= 30; i++)
           {
 
             for (j = 1; j <= m; j++)
@@ -43,7 +43,8 @@ namespace Choinka
                 Console.WriteLine();
 
             }
-            Console.ReadLine();
+            Console.WriteLine("________________________________________________________");
+            
         }
 
     }

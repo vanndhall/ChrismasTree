@@ -12,12 +12,16 @@ namespace Choinka
         {
             Swierk swierk = new Swierk();
             Sosna sosna = new Sosna();
+            Jodla jodla = new Jodla();
 
             // wypisz
             Console.WriteLine("Pora na świerk:  "); 
             swierk.DrawSwierk();
             Console.WriteLine("Pora na Sosnę: ");
             sosna.DrawSosna();
+            Console.WriteLine("Pora na Jodłę: ");
+            jodla.DrawJodla();
+            Console.ReadLine();
 
             
 
